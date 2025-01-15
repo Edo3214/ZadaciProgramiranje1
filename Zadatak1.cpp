@@ -19,7 +19,7 @@ int main()
 
 void rekurzija(int* niz,int duzina,int broj,int  i)
 {
-	if (i == duzina || broj==INT_MAX || broj<0)
+	if (i == duzina || broj==INT_MAX || broj<0) // provjera uslova
 		return;
 	*(niz + i) = broj;
 	rekurzija(niz, duzina, broj * 2, i=i+1);
