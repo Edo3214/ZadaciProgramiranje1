@@ -1,0 +1,6 @@
+Napisati program koji će omogućiti korisniku da unese veličinu jednodimenzionalnog dinamičkog niza integer vrijednosti.
+Napisati i testirati rekurzivnu funkciju koja će taj niz popuniti serijom Fibonacci brojevima.
+Rekurzija se prekida kada se popuni cijeli niz ili kada se desi overflow na integer varijabli.
+Zatim napisati i testirati drugu rekurzivnu funkciju koja će u tom nizu naći određenu vrijednost
+koju korisnik unese sa tastature.
+U ovom zadatku je zabranjeno indeksirati niz uglastim zagradama. Obavezno koristiti aritmetiku pokazivača.
