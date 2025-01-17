@@ -33,6 +33,11 @@ int main()
 	popuni(matrica, redovi, kolone, target, mjestoR, mjestoK);
 	ispis(matrica, redovi, kolone);
 
+	//brisanje matrice
+	for (int i = 0; i < redovi; i++)
+		delete* (matrica + i);
+	delete[]matrica;
+	matrica = nullptr;
 	return 0;
 }
 int ogranici(int broj, int ogranicenje)
